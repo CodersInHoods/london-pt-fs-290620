@@ -9,3 +9,5 @@
 [HTML & CSS Basics: Flexbox](https://youtu.be/rMSCuZKk5_w)
 
 [Arrays and Objects](https://youtu.be/7tuARFEYFck)
+
+[Loops](https://youtu.be/rYtS1XFotMg)
