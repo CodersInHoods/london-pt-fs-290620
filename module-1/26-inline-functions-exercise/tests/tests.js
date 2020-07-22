@@ -50,10 +50,10 @@ describe("isLessThan100", () => {
 		expect(isInlineFunction).toEqual(true);
 	});
 
-	test("isLessThan100 returns next odd number", () => {
-		expect(isLessThan100(1, 25)).toEqual(false);
+	test("isLessThan100 returns correct boolean", () => {
+		expect(isLessThan100(1, 25)).toEqual(true);
 		expect(isLessThan100(50, 50)).toEqual(false);
-		expect(isLessThan100(50, 51)).toEqual(true);
+		expect(isLessThan100(50, 51)).toEqual(false);
 	});
 });
 
