@@ -38,40 +38,6 @@ const dataTypes = [
  * }
  */
 
-const sortedData = (data) => {
-  let result = {
-    strings: [],
-    integers: [],
-    floats: [],
-    arrays: [],
-    objects: [],
-  };
-
-  for (let el of data) {
-    switch (true) {
-      case typeof el === "string":
-        result.strings.push(el);
-        break;
-      case Number.isInteger(el) === true:
-        result.integers.push(el);
-        break;
-      case Number(el) === el && el % 1 !== 0:
-        result.floats.push(el);
-        break;
-      case Array.isArray(el) === true:
-        result.arrays.push(el);
-        break;
-      case typeof el === "object":
-        result.objects.push(el);
-        break;
-      default:
-        console.log("undefined element");
-    }
-  }
-  return result;
-};
-
-const numbers = [4, 3, 2, 6, 1, 7];
 
 /**
  * Exercise 2
@@ -84,17 +50,6 @@ const numbers = [4, 3, 2, 6, 1, 7];
  * Ex: pass [3,2,6]
  * result: [6, 12, 6]
  */
-
-const multipliedByNextNumber = (nums) => {
-  const result = [];
-
-  for (let i = 0; i < nums.length; i++) {
-    const nextNum = nums[i + 1] || 1;
-    result.push(nums[i] * nextNum);
-  }
-
-  return result;
-};
 
 /**
  * Exercise 3
@@ -109,30 +64,6 @@ const multipliedByNextNumber = (nums) => {
  * result: [24, 3, 48, 16, 5, 7]
  */
 
-const findNextEvenEl = (arr, index) => {
-  for (let i = index; i < arr.length; i++) {
-    if (arr[i] % 2 === 0) {
-      return arr[i];
-    }
-  }
-
-  return 2;
-};
-
-const multipliedEvenNumbers = (nums) => {
-  const result = [];
-
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] % 2 === 0) {
-      const nextEvenNum = findNextEvenEl(nums, i + 1);
-      result.push(nums[i] * nextEvenNum);
-    } else {
-      result.push(nums[i]);
-    }
-  }
-
-  return result;
-};
 
 /**
  * Exercise 4
@@ -147,31 +78,6 @@ const multipliedEvenNumbers = (nums) => {
  * result: [4, 15, 6, 8, 35, 7]
  */
 
-const findNextOddEl = (arr, index) => {
-  for (let i = index; i < arr.length; i++) {
-    if (arr[i] % 2) {
-      return arr[i];
-    }
-  }
-
-  return 1;
-};
-
-const multipliedOddNumbers = (nums) => {
-  const result = [];
-
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] % 2) {
-      const nextEvenNum = findNextOddEl(nums, i + 1);
-      result.push(nums[i] * nextEvenNum);
-    } else {
-      result.push(nums[i]);
-    }
-  }
-
-  return result;
-};
-
 /**
  * Exercise 5
  *
@@ -182,14 +88,3 @@ const multipliedOddNumbers = (nums) => {
  * if you pass "odd" do the same what you have for exercise 4
  * else return original array.
  */
-
-const multipliedEvenOddNumbers = (nums, type) => {
-  switch (type) {
-    case "even":
-      return multipliedEvenNumbers(nums);
-    case "odd":
-      return multipliedOddNumbers(nums);
-    default:
-      return nums;
-  }
-};
