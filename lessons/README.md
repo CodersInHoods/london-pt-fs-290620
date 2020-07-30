@@ -13,3 +13,5 @@
 [Loops](https://youtu.be/xRgU2ldFr9M)
 
 [DOM Manipulation](https://youtu.be/qPDfbvliiOo)
+
+[Events](https://youtu.be/4X2OOfZDtf4)
