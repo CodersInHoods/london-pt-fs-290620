@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ddd;
+}
+
+h1 {
+    text-align: center;
+}
+
+.playground {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 900px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2em;
+    align-items: start;
+}
+
+h3 {
+    margin: 0;
+    padding: 1em;
+    color: #fff;
+}
+
+ul {
+    margin: 1em 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+ul li p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    color: #fff;
+    border: none;
+    width: 50%;
+    line-height: 2.5em;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn.to_team1 {
+    background-color: #097be6;
+    font-size: 2em;
+    line-height: 1.4em;
+}
+
+.btn.to_team2 {
+    background-color: #e64809;
+    font-size: 2em;
+    line-height: 1.4em;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.pool_container h3 {
+    background-color: red;
+}
+
+.pool {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.team1_container h3 {
+    background-color: #097be6;
+}
+
+.team1 li {
+    background-color: #097be6;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.team1 li:nth-child(2n) {
+    background-color: #fff;
+    color: #097be6;
+}
+
+.team2_container h3 {
+    background-color: #e64809;
+}
+
+.team2 li {
+    background-color: #e64809;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.team2 li:nth-child(2n) {
+    background-color: #fff;
+    color: #e64809;
+}
+
+#reset {
+    width: 100%;
+    background-color: red;
+    text-transform: uppercase;
+}
