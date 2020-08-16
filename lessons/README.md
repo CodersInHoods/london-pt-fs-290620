@@ -19,3 +19,7 @@
 [Interactive pages](https://youtu.be/uxOsFDwxI24)
 
 [CSS Animation and Wireframes](https://youtu.be/Ecq7ZqktCXU)
+
+[Algorithms and Testing](https://youtu.be/nPfL3dj118c)
+
+[Module 2 Project Features](https://youtu.be/jPMjsH_oSaA)

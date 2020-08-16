@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>project</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      .product-info {
+        min-width: 3em;
+        min-height: 3em;
+        background: grey;
+        margin: 1em;
+        text-align: center;
+        line-height: 3em;
+        color: white;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+        <div>
+            BASKET <span id="basket-quantity">0</span>
+        </div>
+      <form>
+          <div id="color-options">
+
+          </div>
+          <div>
+              <label>
+                  Min price <input type="number" name="min-price"/>
+              </label>
+              <label>
+                  Max price <input type="number" name="max-price"/>
+              </label>
+          </div>
+          <div>
+              <label>
+                  Default <input type="radio" name="sort-option" value="DEFAULT" checked/>
+              </label>
+              <label>
+                  Price: lowest first <input type="radio" name="sort-option" value="LOWEST" />
+              </label>
+              <label>
+                  Price: highest first <input type="radio" name="sort-option" value="HIGHEST" />
+              </label>
+          </div>
+          <input type="submit" value="Search..." />
+      </form>
+    </nav>
+    <main>
+        <button id="page-down"><</button>
+        <span id="page-number">1</span>
+        <button id="page-up">></button>
+      <div id="products"></div>
+    </main>
+    <script src="products.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
