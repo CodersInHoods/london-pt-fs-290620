@@ -23,3 +23,5 @@
 [Algorithms and Testing](https://youtu.be/nPfL3dj118c)
 
 [Module 2 Project Features](https://youtu.be/jPMjsH_oSaA)
+
+[Node Intro](https://youtu.be/PXkTmo9_Kpc)
