@@ -1,0 +1,22 @@
+{
+  "name": "test-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js --watch server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^7.2.0",
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "node-fetch-polyfill": "^2.0.6",
+    "sequelize": "^6.3.4"
+  }
+}
