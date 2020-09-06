@@ -27,7 +27,7 @@ Endpoints:
   - `POST` - add a new room to `rooms` collection;
 - `/api/rooms/available`
   - `GET` - select and return all available rooms from `rooms` collection;
-- `/api/rooms/equipment?=`
+- `/api/rooms?equipment=`
   - `GET` - select and return all rooms with required equipment from `rooms` collection;
 - `/api/room/:id`
   - `GET` - get room by id;
@@ -61,7 +61,7 @@ Endpoints:
 
 - `/api/bookings`
   - `GET` - return all bookings;
-- `/api/bookings/companyId?=`
+- `/api/bookings?companyId=`
   - `GET` - return all bookings for selected company;
   - `DELETE` - delete all bookings for selected company;
 - `/api/booking/:id`
