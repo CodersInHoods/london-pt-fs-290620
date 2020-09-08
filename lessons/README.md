@@ -25,3 +25,5 @@
 [Module 2 Project Features](https://youtu.be/jPMjsH_oSaA)
 
 [Node Intro](https://youtu.be/PXkTmo9_Kpc)
+
+[Authentication](https://youtu.be/mrwrSrgg-i4)
