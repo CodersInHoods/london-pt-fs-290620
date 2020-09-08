@@ -1,0 +1,3 @@
+{"username":"sam","passwordHash":"$2b$10$Srgwhm9tM0X1shvZ1zDVdeV.PxPq/QYNIR3XgTVmHJu1FFpJoTUtq"}
+{"username":"vasile","passwordHash":"$2b$10$hrcoABTJ32XQ.Y8sO93FVerbEY6MsOYyBNBOmE.6VjIes9wbCKRgK"}
+{"username":"mimi","passwordHash":"$2b$10$CMyaMYLjIvpQZ8WPg28nqOc7fKogVzCo.rmSNi4cxVwUyGwFAI1cW"}
