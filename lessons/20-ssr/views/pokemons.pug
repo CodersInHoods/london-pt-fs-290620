@@ -1,0 +1,10 @@
+include pokemon_partial
+
+html
+    head
+        title Pokemoins
+        script(src="./index.js")
+    body
+        h1(class="big") Welcome to the pokemoin site
+        each pokemon in pokemons
+            +pokemon_partial(pokemon)

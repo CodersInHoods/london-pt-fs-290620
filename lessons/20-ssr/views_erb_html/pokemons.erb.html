@@ -1,0 +1,8 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Welcome to the pokemoin site</h1>
+        <% _.forEach(pokemons, function(pokemon) { return %> <a style="display: block;" href="<%- pokemon.url %>"><%- pokemon.name %></a> <% }) %>
+    </body>
+</html>
