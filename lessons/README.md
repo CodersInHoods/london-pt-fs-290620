@@ -27,3 +27,5 @@
 [Node Intro](https://youtu.be/PXkTmo9_Kpc)
 
 [Authentication](https://youtu.be/mrwrSrgg-i4)
+
+[Server Side Rendering](https://youtu.be/wUP76Av-KJU)
