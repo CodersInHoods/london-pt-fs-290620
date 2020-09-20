@@ -29,3 +29,7 @@
 [Authentication](https://youtu.be/mrwrSrgg-i4)
 
 [Server Side Rendering](https://youtu.be/wUP76Av-KJU)
+
+[Serverless](https://youtu.be/uyMIqB_L_30)
+
+[Web sockets](https://youtu.be/yPGZfWr-NTU)
