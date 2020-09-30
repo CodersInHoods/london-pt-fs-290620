@@ -27,4 +27,6 @@ git push
 
 [JS CLI](https://github.com/CodersInHoods/js-cli-project-london-pt-fs-290620)
 
+[E-commerce website](https://github.com/CodersInHoods/e-commerce-london-pt-fs-290620)
+
 [Twitter app](https://github.com/CodersInHoods/twitter-app-london-pt-fs-290620)
