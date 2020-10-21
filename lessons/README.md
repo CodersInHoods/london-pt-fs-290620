@@ -41,3 +41,5 @@
 [OOP](https://youtu.be/mzSEH4aFYYE)
 
 [Typescript](https://youtu.be/HIduDzKVBoM)
+
+[Frameworks](https://youtu.be/dcB8JLWaSJQ)
