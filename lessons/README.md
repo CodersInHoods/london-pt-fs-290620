@@ -42,4 +42,4 @@
 
 [Typescript](https://youtu.be/HIduDzKVBoM)
 
-[Frameworks](https://youtu.be/dcB8JLWaSJQ)
+[Frameworks](https://youtu.be/dcB8JLWaSJQ) - I hate Windows
